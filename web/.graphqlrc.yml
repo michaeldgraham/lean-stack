@@ -1,0 +1,27 @@
+schema: http://localhost:4001/graphql
+
+extensions:
+  codegen:
+    config:
+      constEnums: true
+      declarationKind: interface
+      dedupeOperationSuffix: true
+      immutableTypes: true
+      namingConvention: keep
+      noSchemaStitching: true
+      operationResultSuffix: Data
+      optionalResolveType: true
+      useIndexSignature: true
+
+    generates:
+      src/schema.ts:
+        schema: src/client.schema.graphql
+        plugins:
+          - typescript
+          - typescript-operations
+
+        documents:
+          - src/**/*.fragment.graphql
+          - src/**/*.mutation.graphql
+          - src/**/*.query.graphql
+          - src/**/*.subscription.graphql

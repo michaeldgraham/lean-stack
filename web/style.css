@@ -1,0 +1,20 @@
+body {
+  font-family: 'Inter var', 'Roboto', arial, sans-serif;
+  color: var(--on-background);
+  background: var(--background);
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+:root {
+  --background: #fefefe;
+  --on-background: #222;
+}
+
+@media(prefers-color-scheme: dark) {
+  :root {
+    --background: #222;
+    --on-background: #fefefe;
+  }
+}

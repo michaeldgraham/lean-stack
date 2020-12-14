@@ -1,0 +1,6 @@
+query AppQuery {
+  location @client { pathname }
+  A {
+    id
+  }
+}
