@@ -38,8 +38,11 @@ Run `npm run start` in `/web` to start the [Web Dev Server](#development-server)
 
 The below UI should load once the application is launched in `/web`. If you're Neo4j database is running and your is api started, you should see nodes appear in a [force-graph](https://github.com/vasturiano/force-graph) when you press the `CREATE A` button.
 
-![Integration Logo](AGraph.png)
+![Force graph of A nodes](AGraph.png)
 
+Using the [Neo4j Browser](https://neo4j.com/developer/neo4j-browser/) in Neo4j Desktop, you can view a graph of the nodes created with the `A` [node label](https://neo4j.com/docs/cypher-manual/current/syntax/naming/):
+
+![Neo4j browser A Nodes](AGraphBrowser.png)
 ### The Front-End
 #### Web Components + Apollo Client
 The [Apollo Elements](https://apolloelements.dev/) project develops many invaluable resources for using Apollo client with LitElement. Typescript definitions are available using the [@apollo-elements/interfaces](https://apolloelements.dev/modules/_apollo_elements_interfaces.html) package.
