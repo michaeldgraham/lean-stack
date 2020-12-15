@@ -34,7 +34,7 @@ Run `npm install` in the root, `/api`, and `/web` directories.
 #### Demo
 Run `npm run start` in the root directory to start an [Apollo Server](https://www.npmjs.com/package/apollo-server) with a [Neo4j-GraphQL](#apollo-server-+-neo4j) API.
 
-Run `npm run start` in `/web` to start the [Web Dev Server](#development-server) and launch the web application.
+Run `npm run start` in `/web` to start [Web Dev Server](#development-server) and launch the web application.
 
 The below UI should load once the application is launched in `/web`. If you're Neo4j database is running and your is api started, you should see nodes appear in a [force-graph](https://github.com/vasturiano/force-graph) when you press the `CREATE A` button.
 
