@@ -29,7 +29,7 @@ This repository begins as a modified combination of the following two starter ki
 Follow [these instructions](https://github.com/grand-stack/grand-stack-starter#option-two---desktop) for installing Neo4j Desktop. The expected the username (neo4j) and password (letmein) are the same as those set in the [environment variables](https://github.com/grand-stack/grand-stack-starter#api) of the [GRANDstack starter kit](https://grandstack.io/docs/getting-started-grand-stack-starter).
 
 #### Dependencies
-Run `npm run install` in the root, `/api`, and `/web` directories.
+Run `npm install` in the root, `/api`, and `/web` directories.
 
 #### Demo
 Run `npm run start` in the root directory to start a [Apollo Server](https://www.npmjs.com/package/apollo-server) for the [Neo4j-GraphQL](#apollo-server-+-neo4j) API.
