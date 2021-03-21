@@ -22,6 +22,6 @@
     "inferschema:write": "node scripts/inferSchema.js"
   },
   "dependencies": {
-    "ssri": "^8.0.0"
+    "ssri": "^8.0.1"
   }
 }
