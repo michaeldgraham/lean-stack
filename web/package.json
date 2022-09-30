@@ -21,7 +21,7 @@
     "@material/mwc-fab": "^0.20.0",
     "@material/mwc-icon": "^0.20.0",
     "@material/mwc-top-app-bar-fixed": "^0.20.0",
-    "force-graph": "^1.35.1",
+    "force-graph": "^1.42.13",
     "lit-element": "^2.4.0",
     "pwa-helpers": "^0.9"
   },
